@@ -1,0 +1,22 @@
+{
+  "name": "@arche/core",
+  "version": "0.1.0",
+  "description": "The framework-agnostic core engine for Anaximander's Arche.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": ["canvas", "infinite", "graph", "engine"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "jsdom": "^24.0.0"
+  }
+}
